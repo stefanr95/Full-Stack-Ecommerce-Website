@@ -24,13 +24,13 @@ const navigation = {
   categories: [
     {
       id: "women",
-      name: "Women",
+      name: "Reketi",
       featured: [
         {
           name: "New Arrivals",
           href: "#",
           imageSrc:
-            "https://tailwindui.com/img/ecommerce-images/mega-menu-category-01.jpg",
+            "https://tailwindui.com/plus/img/ecommerce-images/mega-menu-category-01.jpg",
           imageAlt:
             "Models sitting back to back, wearing Basic Tee in black and bone.",
         },
@@ -38,7 +38,7 @@ const navigation = {
           name: "Basic Tees",
           href: "#",
           imageSrc:
-            "https://tailwindui.com/img/ecommerce-images/mega-menu-category-02.jpg",
+            "https://tailwindui.com/plus/img/ecommerce-images/mega-menu-category-02.jpg",
           imageAlt:
             "Close up of Basic Tee fall bundle with off-white, ochre, olive, and black tees.",
         },
@@ -86,13 +86,13 @@ const navigation = {
     },
     {
       id: "men",
-      name: "Men",
+      name: "Loptice",
       featured: [
         {
           name: "New Arrivals",
           href: "#",
           imageSrc:
-            "https://tailwindui.com/img/ecommerce-images/product-page-04-detail-product-shot-01.jpg",
+            "https://tailwindui.com/plus/img/ecommerce-images/product-page-04-detail-product-shot-01.jpg",
           imageAlt:
             "Drawstring top with elastic loop closure and textured interior padding.",
         },
@@ -100,7 +100,7 @@ const navigation = {
           name: "Artwork Tees",
           href: "#",
           imageSrc:
-            "https://tailwindui.com/img/ecommerce-images/category-page-02-image-card-06.jpg",
+            "https://tailwindui.com/plus/img/ecommerce-images/category-page-02-image-card-06.jpg",
           imageAlt:
             "Three shirts in gray, white, and blue arranged on table with same line drawing of hands and shapes overlapping on front of shirt.",
         },
@@ -145,8 +145,8 @@ const navigation = {
     },
   ],
   pages: [
-    { name: "Company", href: "#" },
-    { name: "Stores", href: "#" },
+    { name: "Patike", href: "#" },
+    { name: "Torbe", href: "#" },
   ],
 };
 
@@ -287,20 +287,6 @@ export default function Navigation() {
                 </a>
               </div>
             </div>
-
-            <div className="border-t border-gray-200 px-4 py-6">
-              <a href="#" className="-m-2 flex items-center p-2">
-                <img
-                  alt=""
-                  src="https://tailwindui.com/img/flags/flag-canada.svg"
-                  className="block h-auto w-5 flex-shrink-0"
-                />
-                <span className="ml-3 block text-base font-medium text-gray-900">
-                  CAD
-                </span>
-                <span className="sr-only">, change currency</span>
-              </a>
-            </div>
           </DialogPanel>
         </div>
       </Dialog>
@@ -332,7 +318,7 @@ export default function Navigation() {
                   <span className="sr-only">Your Company</span>
                   <img
                     alt=""
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                    src="https://i.etsystatic.com/25182431/r/il/578df3/2546551452/il_570xN.2546551452_dosf.jpg"
                     className="h-8 w-auto"
                   />
                 </a>
@@ -351,7 +337,7 @@ export default function Navigation() {
 
                       <PopoverPanel
                         transition
-                        className="absolute inset-x-0 top-full text-sm text-gray-500 transition data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
+                        className="absolute inset-x-0 top-full z-20"
                       >
                         {/* Presentational element used to render the bottom shadow, if we put the shadow on the actual panel it pokes out the top, so we use this shorter element to hide the top of the shadow */}
                         <div
@@ -452,21 +438,6 @@ export default function Navigation() {
                     className="text-sm font-medium text-gray-700 hover:text-gray-800"
                   >
                     Create account
-                  </a>
-                </div>
-
-                <div className="hidden lg:ml-8 lg:flex">
-                  <a
-                    href="#"
-                    className="flex items-center text-gray-700 hover:text-gray-800"
-                  >
-                    <img
-                      alt=""
-                      src="https://tailwindui.com/img/flags/flag-canada.svg"
-                      className="block h-auto w-5 flex-shrink-0"
-                    />
-                    <span className="ml-3 block text-sm font-medium">CAD</span>
-                    <span className="sr-only">, change currency</span>
                   </a>
                 </div>
 

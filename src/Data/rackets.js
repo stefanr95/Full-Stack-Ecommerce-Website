@@ -54,6 +54,20 @@ export const rackets=[
         "title": "Wilson Racket 8",
         "color": "blue",
         "price": 100
+    },
+    {
+        "imageUrl": "https://au.wilson.com/cdn/shop/products/WR108511U_1_ULTRA_100UL_V4_BU.png.high-res_1024x1024.jpg?v=1663738139",
+        "brand": "Wilson 9",
+        "title": "Wilson Racket 9",
+        "color": "blue",
+        "price": 100
+    },
+    {
+        "imageUrl": "https://au.wilson.com/cdn/shop/products/WR108511U_1_ULTRA_100UL_V4_BU.png.high-res_1024x1024.jpg?v=1663738139",
+        "brand": "Wilson 10",
+        "title": "Wilson Racket 10",
+        "color": "blue",
+        "price": 100
     }
 ]
 
